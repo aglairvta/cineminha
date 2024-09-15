@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineminha</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <form id="searchForm">
+        <h1>O que vai asssistir?</h1>
+        <div style="position: relative;">
+            <label for="contentName">Nome:</label>
+            <input type="text" id="contentName" name="contentName" autocomplete="off" required>
+            <div id="suggestions"></div>
+        </div>
+        <br><br>
+        <label for="contentType">Tipo:</label>
+        <select id="contentType">
+            <option value="filme">Filme</option>
+            <option value="serie">Série/Anime</option>
+        </select>
+        <br><br>
+        <button type="submit">Buscar</button>
+        <span>A busca é mais eficiente em inglês.</span>
+    </form>
+    <div id="embedContainer"></div>
+    <div class="obs">
+        Bloqueie anúncios com <a href="https://www.mozilla.org/pt-BR/firefox/new/" target="_blank">Firefox</a> + extensão <a href="https://addons.mozilla.org/pt-BR/firefox/addon/ublock-origin/" target="_blank">uBlock Origin</a> ou <a href="https://librewolf.net/" target="_blank">LibreWolf</a>.
+    </div>
+</body>
+</html>
