@@ -1,6 +1,6 @@
 ### Cineminha
 
-**Cineminha** é apenas um projeto para praticar o consumo de API's, nesse caso usei [OMDb API](http://www.omdbapi.com/) para converter nomes de filmes e séries/animes em identificadores específicos, que são então usados para gerar códigos de embed através do [WarezCDN](https://warezcdn.link/)
+**Cineminha** é apenas um projeto para praticar o consumo de API's, nesse caso usei [OMDb API](http://www.omdbapi.com/) para converter nomes de filmes e séries/animes em identificadores específicos, que são então usados para gerar códigos de embed através do [WarezCDN](https://warezcdn.link/).
 
 <p align="center">
     <img src="./demo/demo.gif" alt="Demo" width="400" height="200" />
@@ -51,5 +51,5 @@
    npm start
    ```
 
-   O servidor estará disponível em http://localhost:3000.
+   O servidor estará disponível em http://localhost:3000
 ---
