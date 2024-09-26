@@ -8,26 +8,22 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <form id="searchForm">
-        <h1>O que vai asssistir?</h1>
-        <div style="position: relative;">
-            <label for="contentName">Nome:</label>
-            <input type="text" id="contentName" name="contentName" autocomplete="off" required>
-            <div id="suggestions"></div>
-        </div>
-        <br><br>
-        <label for="contentType">Tipo:</label>
-        <select id="contentType">
-            <option value="filme">Filme</option>
-            <option value="serie">Série/Anime</option>
-        </select>
-        <br><br>
-        <button type="submit">Buscar</button>
-        <span>A busca é mais eficiente em inglês.</span>
-    </form>
+    <h1 id="pageTitle">Cineminha</h1>
+
+    <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Pesquisar filmes...">
+            <button id="searchButton">Buscar</button>
+    </div>
+
     <div id="embedContainer"></div>
-    <div class="obs">
-        Bloqueie anúncios com <a href="https://www.mozilla.org/pt-BR/firefox/new/" target="_blank">Firefox</a> + extensão <a href="https://addons.mozilla.org/pt-BR/firefox/addon/ublock-origin/" target="_blank">uBlock Origin</a> ou <a href="https://librewolf.net/" target="_blank">LibreWolf</a>.
+
+    <div class="container">
+        <div id="movieContainer"></div>
+    </div>
+    
+    <div id="navigationButtons">
+        <button id="prevButton">Anterior</button>
+        <button id="nextButton">Próximo</button>
     </div>
 </body>
 </html>
